@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card | Yusuf Abdulrazaq Musa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure class="avatar">
+        <img
+          src="avatar.jpg"
+          alt="Photo of Yusuf Abdulrazaq Musa"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <header>
+        <h2 data-testid="test-user-name">Yusuf Abdulrazaq Musa</h2>
+      </header>
+
+      <p data-testid="test-user-bio">
+        Aspiring Software and AI/ML Engineer passionate about building scalable
+        web solutions and intelligent systems. Currently a student at Obafemi
+        Awolowo University.
+      </p>
+
+      <p>
+        Current Time (ms):
+        <span data-testid="test-user-time" id="current-time"></span>
+      </p>
+
+      <nav>
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li>
+            <a
+              href="https://twitter.com/yourhandle"
+              data-testid="test-user-social-twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/yourusername"
+              data-testid="test-user-social-github"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/yourprofile"
+              data-testid="test-user-social-linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Coding</li>
+          <li>Reading</li>
+          <li>Qur’an Memorization</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Procrastination</li>
+          <li>Disorganization</li>
+          <li>Negativity</li>
+        </ul>
+      </section>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
