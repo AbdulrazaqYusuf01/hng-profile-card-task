@@ -34,7 +34,7 @@ The design adapts smoothly from mobile to ultra-wide desktops, ensuring excellen
 
 Clone the repository
 
-```git clone https://github.com/<your-username>/profile-card.git```
+```https://github.com/AbdulrazaqYusuf01/hng-profile-card-task.git```
 
 
 
