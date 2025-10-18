@@ -105,9 +105,9 @@ header h2 {
   color: #fff;
 }
 
-/* .profile-card:hover {
+.profile-card:hover {
   transform: translateY(-4px);
-} */
+}
 
 .time-section {
   background-color: #e2e0df;
